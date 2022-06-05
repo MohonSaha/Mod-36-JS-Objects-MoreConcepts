@@ -15,6 +15,7 @@ const entries = Object.entries(bottle);
 // console.log(entries);
 
 // Object.seal(bottle);
+delete bottle.isCleaned;
 Object.freeze(bottle)
 bottle.price = 100;
 bottle.height = 16;
